@@ -1,0 +1,81 @@
+.hover:hover {
+  background-color: black;
+  transition: .4s ease-out;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec-1-p {
+  font-size: 1em;
+  max-height: fit-content;
+}
+.h3 {
+  font-size: 1.75rem;
+}
+.about-me {
+  align-items: center;
+}
+
+
+
+.about-img {
+  object-fit: cover;
+  aspect-ratio: 4/4;
+}
+.port-img {
+  object-fit: cover;
+  aspect-ratio: 4/4;
+}
+.intro-img {
+  object-fit: cover;
+  min-height: 500px;
+  max-height: 500px;
+}
+
+.container-fluid {
+  max-width: 1204px;
+  align-items: center;
+}
+.nav-item {
+  padding-right: 40px;
+}
+
+.logo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  max-width: 150px;
+  max-height: 150px;
+  
+}
+
+.social-row {
+  align-content: center;
+  max-width: 1204px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.social-row2 {
+  align-content: center;
+  max-width: 1204px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hover-port:hover {
+  border: 30px solid lightgray;
+transition: .4s ease-out;
+}
+
+@media (min-width: 730px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+  }
+}
